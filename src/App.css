@@ -10,6 +10,23 @@ body {
 }
 
 a {
-  color: #333;
   text-decoration: none;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: #555;
+    color: #fff;
+    padding: 14px 14px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: #666;
 }
