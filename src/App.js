@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 import Header from './components/layout/Header';
 import Todos from './components/Todos/Todos';
 import AddTodo from './components/Todos/AddTodo';
